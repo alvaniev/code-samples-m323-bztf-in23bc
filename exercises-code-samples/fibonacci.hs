@@ -2,7 +2,7 @@ import GHC.Natural (Natural)
 
 -- this implementation has two weaknesses:
 -- 1. it uses (++) operator which is inefficient for large lists
--- 2. it uses non-tail recursion which builds up a large stack frame
+-- 2. it uses non-tail recursion which builds up a large call stack
 fibseq :: Natural -> [Natural]
 fibseq 0 = [0]
 fibseq 1 = [0, 1]
