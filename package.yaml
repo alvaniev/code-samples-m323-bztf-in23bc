@@ -1,0 +1,11 @@
+name:                m323-bztf-in23bc
+version:             0.1.0.0
+dependencies:
+- base >= 4.7 && < 5
+- containers
+- arithmoi
+
+
+library:
+  source-dirs: src
+    
