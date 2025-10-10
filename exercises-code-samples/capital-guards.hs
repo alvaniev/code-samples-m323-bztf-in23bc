@@ -10,3 +10,5 @@ capital d i t
   where
     previousCapital = capital d i (t - 1)
     yield = (previousCapital + d) * (i / 100)
+
+    
