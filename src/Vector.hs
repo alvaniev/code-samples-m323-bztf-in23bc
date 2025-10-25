@@ -59,23 +59,3 @@ vangle a b = acos (vdotproduct a b / (vlength a * vlength b))
 
 vcrossproduct :: Vector -> Vector -> Double
 vcrossproduct (Vector a1 a2) (Vector b1 b2) = a1 * b2 - a2 * b1
-
-vecA = Vector 4.5 12.0
-
-vecB = Vector (-6.0) 12.0
-
-vecC = Vector (-3.0) 9.0
-
-vecD = Vector (-3.0) (-2.5)
-
-vecE = Vector 0 0
-
-vecF = Vector 3.0 (-4.0)
-
-vecG = Vector 3.0 10.4
-
-vecH = Vector (-6) (-3)
-
-vecI = Vector 6 (-3)
-
-myVecs = [vecA, vecB, vecC, vecD, vecD, vecE, vecF, vecG, vecH, vecI]
