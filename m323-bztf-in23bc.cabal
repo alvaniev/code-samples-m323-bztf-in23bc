@@ -9,6 +9,8 @@ version:        0.1.0.0
 build-type:     Simple
 
 library
+  exposed-modules:
+      Vector
   other-modules:
       Paths_m323_bztf_in23bc
   hs-source-dirs:
