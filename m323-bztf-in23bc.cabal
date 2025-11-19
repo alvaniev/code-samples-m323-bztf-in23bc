@@ -10,6 +10,7 @@ build-type:     Simple
 
 library
   exposed-modules:
+      Polygon
       Vector
   other-modules:
       Paths_m323_bztf_in23bc
