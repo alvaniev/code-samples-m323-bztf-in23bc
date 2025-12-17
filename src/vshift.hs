@@ -1,4 +1,4 @@
-import Sampldata
+import Sampledata
 import Vector
 
 -- both versions are logical equivalents

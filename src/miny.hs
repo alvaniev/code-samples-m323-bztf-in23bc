@@ -1,5 +1,5 @@
 import Vector
-import Sampldata
+import Sampledata
 
 -- foldl iterates over al list of Vectors
 -- accumulator is initialized with the y-value of the first Vector in the list

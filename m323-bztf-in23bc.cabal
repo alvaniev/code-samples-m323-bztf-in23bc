@@ -11,7 +11,7 @@ build-type:     Simple
 library
   exposed-modules:
       Polygon
-      Sampldata
+      Sampledata
       Vector
   other-modules:
       Paths_m323_bztf_in23bc

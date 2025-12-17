@@ -1,5 +1,5 @@
 
-module Sampldata where 
+module Sampledata where 
 import Vector
 
 
