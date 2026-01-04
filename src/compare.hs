@@ -59,3 +59,13 @@ grahamSort vecs = pivotPoint : sortedOtherPoints
     -- using the pivotAngleCompare function defined above
     -- (pivotAngleCompare pivotPoint) is a partially applied function that takes two vectors and compares them
     sortedOtherPoints = sortBy (pivotAngleCompare pivotPoint) otherPoints
+
+myCompare :: (String, Integer) -> (String, Integer) -> Ordering
+myCompare (_, a) (_, b)
+  | a == b = EQ
+  | a < b = LT
+  | otherwise = GT
+
+
+
+

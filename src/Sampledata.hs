@@ -14,3 +14,11 @@ vecH = Vector (-6) (-3)
 vecI = Vector 6 (-3)
 
 myVecs = [vecA, vecB, vecC, vecD, vecE, vecF, vecG, vecH, vecI]
+
+cities = [ ("Zurich", 450000),
+           ("Geneva", 200000),
+           ("Bern", 130000),
+           ("Basel", 170000),
+           ("Lausanne", 140000),
+           ("Lucerne", 82000)
+         ]
